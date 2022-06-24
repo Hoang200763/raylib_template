@@ -13,7 +13,7 @@ project "game"
     }
 	includedirs
 	{
-		"%{wks.location}raylib/raylib/src/",
+		"%{wks.location}/raylib/raylib/src/",
 	}
 	links { "raylib" }
     

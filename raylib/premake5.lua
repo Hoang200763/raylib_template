@@ -58,12 +58,12 @@ project "raylib"
 
     includedirs 
     {
-        "raylib/raylib/src/",
-        "raylib/raylib/src/external/glfw/include/",
-        "raylib/raylib/src/external/glfw/deps/" 
+        "raylib/src/",
+        "raylib/src/external/glfw/include/",
+        "raylib/src/external/glfw/deps/" 
     }
     files 
     {
-        "raylib/raylib/src/*.h", 
-        "raylib/raylib/src/*.c"
+        "raylib/src/*.h", 
+        "raylib/src/*.c"
     }
